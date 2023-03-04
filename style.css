@@ -1,0 +1,185 @@
+*{
+  background-color: rgba(64, 65, 100, 0.822);
+  color: ivory;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  
+}
+.container-nav{
+  margin: 4vw;
+  padding: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  font-size: 22px;
+}
+.main-container{
+  height: 290px;
+  width: 780;
+  margin: 0;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  background-image: url(../img/yasuo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.text{
+  background-color: white;
+}
+.container {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer; 
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#333, #333);
+    transition: all .5s;
+}
+
+
+.card .img {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+}
+
+.card .img span {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    transition: all .5s;
+}
+
+.card .content {
+    padding: 0px 20px;
+    height: 0;
+    opacity: 9;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translateY(30px);
+}
+
+.card:hover .content {
+    height: 345px;
+    padding: 20px;
+    opacity: 25;
+    transform: translateY(0);
+}
+
+.card .content p {
+    margin: 0;
+}
+
+.card .content .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card .content .desc {
+    font-size: 21px;
+    font-weight: 100;
+    margin-top: 8px;
+}
+
+.card .flexinha {
+    padding: 15px;
+    transform: rotate(-180deg);
+    transition: all .25s;
+    background-color: black;
+}
+
+.card:hover .flexinha{
+    transform: rotate(0);
+
+}
+
+.card .flexinha span {
+    font-size: 24px;
+    background-color: black;
+}
+
+.conhecimento-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 79px;
+  height: 30vw;
+  width: 540px;
+  gap: 10%;
+}
+.Programa{
+  background-color: black;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 30px
+
+}
+.Principal-container{
+  display: flex;
+  margin: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 36px;
+  width: 600px;
+  height: 600px;
+
+}
+.footer-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  padding: 65px;
+  background-color: hotpink;
+ 
+}
+.Github-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  gap: 17%;
+  padding: 25px;
+  background-color: hotpink;
+}
+.Cont{
+  width: 890px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 27px;
+  cursor: pointer; 
+
+}
