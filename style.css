@@ -16,7 +16,7 @@
   font-size: 22px;
 }
 .main-container{
-  height: 290px;
+  height: 100vh;
   width: 780;
   margin: 0;
   font-size: 25px;
@@ -30,8 +30,8 @@
   border-radius: 20px;
 }
 
-.text{
-  background-color: white;
+.titulos{
+  color: aliceblue;
 }
 .container {
     height: 40vh;
