@@ -6,6 +6,9 @@
   text-decoration: none;
   
 }
+Html{
+  scroll-behavior: smooth;
+}
 .container-nav{
   margin: 4vw;
   padding: 2vh;
